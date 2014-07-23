@@ -25,7 +25,7 @@ public class runCmd extends TabbedPane {
 			
 			
 			File f = new File(
-					"C:\\Users\\Public\\myMinerDir\\bfgminer-4.0.0-win64");
+					"C:\\Users\\Public\\myMinerDir\\bfgminer-4.4.0-win64");
 			try {
 				ProcessBuilder builder = new ProcessBuilder("cmd.exe", "/c",
 						"start", "bfgminer.exe", "-o", api, "-u", logIn, "-p",
@@ -46,7 +46,7 @@ public class runCmd extends TabbedPane {
 			}
 		}
 			else if(ar.equals("x86")){
-				File f = new File("C:\\Users\\Public\\myMinerDir\\bfgminer-4.0.0-win32");
+				File f = new File("C:\\Users\\Public\\myMinerDir\\bfgminer-4.4.0-win32");
 				try{
 					ProcessBuilder builder = new ProcessBuilder("cmd.exe","/c","start","bfgminer.exe","-o",api,"-u", logIn,"-p",pswd,"-S","auto","-d","all");
 					builder.directory(f);
