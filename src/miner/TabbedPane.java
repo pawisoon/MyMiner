@@ -37,9 +37,9 @@ import javax.swing.JTextField;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-
+//version 1.1
 public class TabbedPane extends JPanel implements ActionListener, ItemListener {
-	protected static double version = 1.0;
+	protected static double version = 1.1;
 	static JLabel pps = new JLabel("");
 	static JLabel pps1 = new JLabel("");
 	static JLabel pps2 = new JLabel("");
