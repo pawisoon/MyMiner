@@ -91,9 +91,9 @@ public class downloadunzip extends TabbedPane {
 
 									URL url = null;
 									try {
-										//official download link from bfgminer.org
+										//official download link
 										url = new URL(
-												"http://luke.dashjr.org/programs/bitcoin/files/bfgminer/4.4.0/bfgminer-4.4.0-win64.zip");
+												"http://downloads.sourceforge.net/project/bfgminer.mirror/BFGMiner%204.4.0/bfgminer-4.4.0-win64.zip?r=&ts=1406114100&use_mirror=softlayer-ams");
 									} catch (MalformedURLException e1) {
 										// TODO Auto-generated catch block
 										e1.printStackTrace();
@@ -168,9 +168,9 @@ public class downloadunzip extends TabbedPane {
 								public void run() {
 									URL url = null;
 									try {
-										//oficial download link from bfgminer.org
+										//oficial download link
 										url = new URL(
-												"http://luke.dashjr.org/programs/bitcoin/files/bfgminer/4.4.0/bfgminer-4.4.0-win32.zip");
+												"http://downloads.sourceforge.net/project/bfgminer.mirror/BFGMiner%204.4.0/bfgminer-4.4.0-win32.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fbfgminer.mirror%2Ffiles%2FBFGMiner%25204.4.0%2F&ts=1406114199&use_mirror=kent");
 									} catch (MalformedURLException e1) {
 										// TODO Auto-generated catch block
 										e1.printStackTrace();
