@@ -98,27 +98,7 @@ public class TabbedPane extends JPanel implements ActionListener, ItemListener {
 			public void actionPerformed(ActionEvent e) {
 				setCredentials(nick.getText(), pswd.getText(), api.getText());
 
-				/*
-				 * File l = new File("src/l.txt"); File p = new
-				 * File("src/p.txt"); File a = new File("src/a.txt"); // File a
-				 * = new File("/bin/miner/a.txt");
-				 * 
-				 * try { FileWriter fw = new FileWriter(l.getAbsoluteFile());
-				 * FileWriter fw1 = new FileWriter(p.getAbsoluteFile());
-				 * 
-				 * FileWriter fw2 = new FileWriter(a.getAbsoluteFile());
-				 * 
-				 * BufferedWriter bw = new BufferedWriter(fw); BufferedWriter
-				 * bw1 = new BufferedWriter(fw1); BufferedWriter bw2 = new
-				 * BufferedWriter(fw2);
-				 * 
-				 * bw.write(nick.getText()); bw1.write(pswd.getPassword());
-				 * bw2.write(api.getText()); bw.close(); bw1.close();
-				 * bw2.close(); System.out.println("Saved");
-				 * 
-				 * } catch (IOException e1) { // TODO Auto-generated catch block
-				 * e1.printStackTrace(); }
-				 */
+				
 
 			}
 		};
