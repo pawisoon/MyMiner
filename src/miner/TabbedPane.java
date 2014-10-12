@@ -291,20 +291,9 @@ public class TabbedPane extends JPanel implements ActionListener, ItemListener {
 					final String link = "http://pawisoon.tk/Miner";
 					JLabel label = new JLabel("<html><u>" + link
 							+ "</u></html>");
-					label.addMouseListener(new MouseAdapter() {
-						public void mousePressed(MouseEvent me) {
-							try {
-								Runtime.getRuntime().exec(
-										"rundll32 url.dll,FileProtocolHandler "
-												+ link);
-							} catch (Exception e) {
-								e.printStackTrace();
-							}
-						}
-					});
-					int lel = JOptionPane.showConfirmDialog(null, label,
-							"Update found!", JOptionPane.YES_OPTION);
-					if (lel == JOptionPane.YES_OPTION) {
+                    int lel = JOptionPane.showConfirmDialog(null, "Version " + aD + " avaliable!\n Download?",
+                            "Update found! ", JOptionPane.YES_OPTION);
+                    if (lel == JOptionPane.YES_OPTION) {
 						openWebpage("http://pawisoon.tk/Miner");
 					} else {
 						System.out.println("Update aborted");

@@ -126,8 +126,8 @@ public class downloadunzip extends TabbedPane {
 
 										}
 
-										l.setText("Pobieranie zako�czone");
-										out.close();
+                                        l.setText("Pobieranie zakonczone");
+                                        out.close();
 										in.close();
 									} catch (IOException e) {
 										JOptionPane.showConfirmDialog(null,

@@ -72,7 +72,8 @@ public class runCmd extends TabbedPane {
 		}
 
 		else {
-			int res1 = JOptionPane.showOptionDialog(null, "Sorry", "Oops!",
+                System.out.println("error");
+                int res1 = JOptionPane.showOptionDialog(null, "Sorry", "Oops!",
 					JOptionPane.OK_OPTION, (Integer) null, null, null, null);
 			System.out.println(res1);
 		}
